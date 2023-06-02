@@ -1,0 +1,159 @@
+
+
+
+/* GENERAL */
+
+body {
+    background-color: burlywood;
+}
+
+img {
+    max-height: 750px;
+}
+
+ul li:hover {
+    opacity: 0.75;
+}
+
+h5, p {
+    font-weight: bold;
+}
+
+header {
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* NAVBAR */
+
+.nav-special {
+    margin-right: 80px;
+}
+
+#navbarSupportedContent ul li {
+    padding-left: 20px;
+}
+
+
+/* CARDS */
+
+.card-border{
+    border: solid 2px darkgoldenrod; 
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+}
+
+.card-body h5:hover {
+    color:orange !important;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.btn-card {
+    transform: scale(1.25);
+
+}
+
+.btn-card:hover {
+    transform: scale(1.50);
+    color:orange !important;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+
+}
+
+
+/* DIRECCION Y CONTACTO */
+
+.iconos img {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.footer-links a:hover {
+    opacity: 0.75;
+    color: white;
+}
+
+.iconos img:hover {
+    transform: scale(1.25);
+}
+
+
+/* FORMULARIO */
+
+#contenedor-formulario {
+    max-width: 500px;
+}
+
+
+
+/******************************* SECCIÓN DE CARTA ******************************/ 
+
+.card-style {
+    border: solid 2px darkgoldenrod !important; 
+    border-radius: 2px !important;
+}
+
+
+.footer-links a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+    h5, p {
+        font-size: 17px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 768px) {
+    h5, p {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 411px) {
+    h5, p {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}
+
+
+@media (max-width: 360px) {
+    h5, p {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 500px) {
+    .special {
+        white-space: pre-line;
+        text-align: center;
+        padding-bottom: 2px;
+    }
+}
